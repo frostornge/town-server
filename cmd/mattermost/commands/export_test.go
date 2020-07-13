@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/model"
 )
 
 // There are no tests that actually run the Message Export job, because it can take a long time to complete depending

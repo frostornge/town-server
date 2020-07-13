@@ -5,8 +5,8 @@
 package mocks
 
 import (
-	model "github.com/mattermost/mattermost-server/v5/model"
-	store "github.com/mattermost/mattermost-server/v5/store"
+	model "github.com/nonce/town-server/model"
+	store "github.com/nonce/town-server/store"
 	mock "github.com/stretchr/testify/mock"
 )
 

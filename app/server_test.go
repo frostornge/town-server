@@ -19,12 +19,12 @@ import (
 	"time"
 
 	"github.com/getsentry/sentry-go"
-	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/nonce/town-server/mlog"
 
-	"github.com/mattermost/mattermost-server/v5/config"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/nonce/town-server/config"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/store/storetest"
+	"github.com/nonce/town-server/utils/fileutils"
 	"github.com/stretchr/testify/require"
 )
 

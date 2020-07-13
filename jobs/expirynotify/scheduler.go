@@ -6,8 +6,8 @@ package expirynotify
 import (
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/app"
+	"github.com/nonce/town-server/model"
 )
 
 const (

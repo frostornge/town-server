@@ -4,8 +4,8 @@
 package sqlstore
 
 import (
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/store"
 
 	sq "github.com/Masterminds/squirrel"
 )

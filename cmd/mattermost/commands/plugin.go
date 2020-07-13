@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/audit"
+	"github.com/nonce/town-server/model"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

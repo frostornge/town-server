@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/nonce/town-server/audit"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/store"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

@@ -18,10 +18,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
-	"github.com/mattermost/mattermost-server/v5/utils/testutils"
+	"github.com/nonce/town-server/app"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/utils"
+	"github.com/nonce/town-server/utils/testutils"
 )
 
 func TestCreatePost(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/model"
 )
 
 func IsPasswordValidWithSettings(password string, settings *model.PasswordSettings) *model.AppError {

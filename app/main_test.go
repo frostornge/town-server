@@ -6,7 +6,7 @@ package app
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/nonce/town-server/testlib"
 )
 
 var mainHelper *testlib.MainHelper

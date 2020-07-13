@@ -10,8 +10,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/utils"
 
 	"github.com/pkg/errors"
 )

@@ -6,13 +6,13 @@ package main
 import (
 	"os"
 
-	"github.com/mattermost/mattermost-server/v5/cmd/mattermost/commands"
+	"github.com/nonce/town-server/cmd/mattermost/commands"
 
 	// Plugins
-	_ "github.com/mattermost/mattermost-server/v5/model/gitlab"
+	_ "github.com/nonce/town-server/model/gitlab"
 
 	// Enterprise Imports
-	_ "github.com/mattermost/mattermost-server/v5/imports"
+	_ "github.com/nonce/town-server/imports"
 
 	// Enterprise Deps
 	_ "github.com/gorilla/handlers"

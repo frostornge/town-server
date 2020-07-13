@@ -14,10 +14,10 @@ import (
 
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/services/mailservice"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/services/mailservice"
+	"github.com/nonce/town-server/utils"
 )
 
 func (s *Server) GetLogs(page, perPage int) ([]string, *model.AppError) {

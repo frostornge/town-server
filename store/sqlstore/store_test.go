@@ -7,10 +7,10 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/searchtest"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/store"
+	"github.com/nonce/town-server/store/searchtest"
+	"github.com/nonce/town-server/store/storetest"
 )
 
 type storeType struct {

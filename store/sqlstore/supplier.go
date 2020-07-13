@@ -20,11 +20,11 @@ import (
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"
 	"github.com/mattermost/gorp"
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/nonce/town-server/einterfaces"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/store"
+	"github.com/nonce/town-server/utils"
 )
 
 const (
@@ -104,7 +104,7 @@ type SqlSupplierStores struct {
 
 type SqlSupplier struct {
 	// rrCounter and srCounter should be kept first.
-	// See https://github.com/mattermost/mattermost-server/v5/pull/7281
+	// See https://github.com/nonce/town-server/pull/7281
 	rrCounter      int64
 	srCounter      int64
 	master         *gorp.DbMap

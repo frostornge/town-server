@@ -7,8 +7,8 @@ import (
 	sq "github.com/Masterminds/squirrel"
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/store"
 )
 
 type sqlClusterDiscoveryStore struct {

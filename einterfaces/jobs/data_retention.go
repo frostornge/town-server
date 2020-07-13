@@ -4,7 +4,7 @@
 package jobs
 
 import (
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/model"
 )
 
 type DataRetentionJobInterface interface {

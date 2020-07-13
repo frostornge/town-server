@@ -65,7 +65,7 @@
         "ImageProxyURL": "",
         "ImageProxyOptions": "",
         "EnableAPITeamDeletion": false,
-        "ExperimentalEnableHardenedMode": false,
+        "ExperimentalEnableHardenedMode": false
     },
     "TeamSettings": {
         "SiteName": "Mattermost",

@@ -13,13 +13,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin/plugintest/mock"
-	"github.com/mattermost/mattermost-server/v5/services/searchengine/mocks"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
-	storemocks "github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/plugin/plugintest/mock"
+	"github.com/nonce/town-server/services/searchengine/mocks"
+	"github.com/nonce/town-server/store/storetest"
+	storemocks "github.com/nonce/town-server/store/storetest/mocks"
+	"github.com/nonce/town-server/testlib"
 )
 
 func TestCreatePostDeduplicate(t *testing.T) {
@@ -53,8 +53,8 @@ func TestCreatePostDeduplicate(t *testing.T) {
 			package main
 
 			import (
-				"github.com/mattermost/mattermost-server/v5/plugin"
-				"github.com/mattermost/mattermost-server/v5/model"
+				"github.com/nonce/town-server/plugin"
+				"github.com/nonce/town-server/model"
 			)
 
 			type MyPlugin struct {
@@ -102,8 +102,8 @@ func TestCreatePostDeduplicate(t *testing.T) {
 			package main
 
 			import (
-				"github.com/mattermost/mattermost-server/v5/plugin"
-				"github.com/mattermost/mattermost-server/v5/model"
+				"github.com/nonce/town-server/plugin"
+				"github.com/nonce/town-server/model"
 				"time"
 			)
 

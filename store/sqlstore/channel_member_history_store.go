@@ -6,9 +6,9 @@ package sqlstore
 import (
 	"database/sql"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/store"
 
 	"github.com/pkg/errors"
 )

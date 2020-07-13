@@ -4,10 +4,10 @@
 package sqlstore_test
 
 import (
-	"github.com/mattermost/mattermost-server/v5/store/sqlstore"
+	"github.com/nonce/town-server/store/sqlstore"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/nonce/town-server/testlib"
 )
 
 var mainHelper *testlib.MainHelper

@@ -10,8 +10,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/utils"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/nonce/town-server/utils"
+	"github.com/nonce/town-server/utils/fileutils"
 )
 
 func TestConfigFlag(t *testing.T) {

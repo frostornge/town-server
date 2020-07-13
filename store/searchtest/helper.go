@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/store"
 	"github.com/pkg/errors"
 
 	"github.com/stretchr/testify/assert"

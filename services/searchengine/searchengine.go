@@ -4,8 +4,8 @@
 package searchengine
 
 import (
-	"github.com/mattermost/mattermost-server/v5/jobs"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/jobs"
+	"github.com/nonce/town-server/model"
 )
 
 func NewBroker(cfg *model.Config, jobServer *jobs.JobServer) *Broker {

@@ -16,10 +16,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/audit"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/nonce/town-server/app"
+	"github.com/nonce/town-server/audit"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/utils"
 )
 
 const (

@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/utils/fileutils"
 )
 
 func TestCreateBot(t *testing.T) {

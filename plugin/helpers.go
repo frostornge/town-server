@@ -4,7 +4,7 @@
 package plugin
 
 import (
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/model"
 )
 
 // Helpers provide a common patterns plugins use.

@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/api4"
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
-	"github.com/mattermost/mattermost-server/v5/web"
+	"github.com/nonce/town-server/api4"
+	"github.com/nonce/town-server/app"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/utils"
+	"github.com/nonce/town-server/web"
 )
 
 // TestEnvironment is a helper struct used for tests in manualtesting.

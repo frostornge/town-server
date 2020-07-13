@@ -20,12 +20,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/testlib"
-	"github.com/mattermost/mattermost-server/v5/utils"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/plugin"
+	"github.com/nonce/town-server/testlib"
+	"github.com/nonce/town-server/utils"
+	"github.com/nonce/town-server/utils/fileutils"
 )
 
 func getHashedKey(key string) string {
@@ -637,8 +637,8 @@ func TestPluginPanicLogs(t *testing.T) {
 		package main
 
 		import (
-			"github.com/mattermost/mattermost-server/v5/plugin"
-			"github.com/mattermost/mattermost-server/v5/model"
+			"github.com/nonce/town-server/plugin"
+			"github.com/nonce/town-server/model"
 		)
 
 		type MyPlugin struct {

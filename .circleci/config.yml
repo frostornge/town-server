@@ -376,7 +376,7 @@ jobs:
 
   upload-s3:
     docker:
-    - image: 'circleci/python:2.7'
+      - image: 'circleci/python:2.7'
     working_directory: ~/mattermost/enterprise
     steps:
       - attach_workspace:
@@ -415,9 +415,9 @@ workflows:
       - setup:
           filters:
             branches:
-                ignore:
-                  - master
-                  - /^release-.*/
+              ignore:
+                - master
+                - /^release-.*/
       - check-deps:
           context: sast-webhook
           requires:

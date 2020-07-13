@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/services/cache2"
+	"github.com/nonce/town-server/services/cache2"
 
-	"github.com/mattermost/mattermost-server/v5/model"
-	cachemocks "github.com/mattermost/mattermost-server/v5/services/cache2/mocks"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/testlib"
+	"github.com/nonce/town-server/model"
+	cachemocks "github.com/nonce/town-server/services/cache2/mocks"
+	"github.com/nonce/town-server/store"
+	"github.com/nonce/town-server/store/storetest/mocks"
+	"github.com/nonce/town-server/testlib"
 	"github.com/stretchr/testify/mock"
 )
 

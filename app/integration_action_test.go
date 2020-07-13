@@ -16,7 +16,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/model"
 )
 
 // Test for MM-13598 where an invalid integration URL was causing a crash
@@ -483,8 +483,8 @@ func TestSubmitInteractiveDialog(t *testing.T) {
 
 		import (
 			"net/http"
-			"github.com/mattermost/mattermost-server/v5/plugin"
-			"github.com/mattermost/mattermost-server/v5/model"
+			"github.com/nonce/town-server/plugin"
+			"github.com/nonce/town-server/model"
 		)
 
 		type MyPlugin struct {
@@ -771,8 +771,8 @@ func TestPostActionRelativePluginURL(t *testing.T) {
 
 		import (
 			"net/http"
-			"github.com/mattermost/mattermost-server/v5/plugin"
-			"github.com/mattermost/mattermost-server/v5/model"
+			"github.com/nonce/town-server/plugin"
+			"github.com/nonce/town-server/model"
 		)
 
 		type MyPlugin struct {
@@ -972,7 +972,7 @@ func TestDoPluginRequest(t *testing.T) {
 			"reflect"
 			"sort"
 
-			"github.com/mattermost/mattermost-server/v5/plugin"
+			"github.com/nonce/town-server/plugin"
 		)
 
 		type MyPlugin struct {

@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/utils/testutils"
+	"github.com/nonce/town-server/utils/testutils"
 	"github.com/stretchr/testify/require"
 )
 

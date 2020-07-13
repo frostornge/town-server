@@ -15,8 +15,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/mlog"
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/mlog"
+	"github.com/nonce/town-server/model"
 )
 
 func dummyWebsocketHandler(t *testing.T) http.HandlerFunc {

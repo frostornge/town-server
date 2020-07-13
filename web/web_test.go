@@ -13,15 +13,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/config"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/plugin"
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/localcachelayer"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
-	"github.com/mattermost/mattermost-server/v5/testlib"
-	"github.com/mattermost/mattermost-server/v5/utils"
+	"github.com/nonce/town-server/app"
+	"github.com/nonce/town-server/config"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/plugin"
+	"github.com/nonce/town-server/store"
+	"github.com/nonce/town-server/store/localcachelayer"
+	"github.com/nonce/town-server/store/storetest/mocks"
+	"github.com/nonce/town-server/testlib"
+	"github.com/nonce/town-server/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -179,7 +179,7 @@ func TestStaticFilesRequest(t *testing.T) {
 	package main
 
 	import (
-		"github.com/mattermost/mattermost-server/v5/plugin"
+		"github.com/nonce/town-server/plugin"
 	)
 
 	type MyPlugin struct {
@@ -266,7 +266,7 @@ func TestPublicFilesRequest(t *testing.T) {
 	package main
 
 	import (
-		"github.com/mattermost/mattermost-server/v5/plugin"
+		"github.com/nonce/town-server/plugin"
 	)
 
 	type MyPlugin struct {

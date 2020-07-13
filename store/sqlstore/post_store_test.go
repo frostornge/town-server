@@ -6,8 +6,8 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/store/searchtest"
-	"github.com/mattermost/mattermost-server/v5/store/storetest"
+	"github.com/nonce/town-server/store/searchtest"
+	"github.com/nonce/town-server/store/storetest"
 )
 
 func TestPostStore(t *testing.T) {

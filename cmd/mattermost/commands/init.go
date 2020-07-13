@@ -4,10 +4,10 @@
 package commands
 
 import (
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils"
 	"github.com/mattermost/viper"
+	"github.com/nonce/town-server/app"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/utils"
 	"github.com/spf13/cobra"
 )
 

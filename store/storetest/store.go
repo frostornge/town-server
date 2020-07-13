@@ -7,8 +7,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/store"
-	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
+	"github.com/nonce/town-server/store"
+	"github.com/nonce/town-server/store/storetest/mocks"
 	"github.com/stretchr/testify/mock"
 )
 

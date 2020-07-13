@@ -6,7 +6,7 @@ package sqlstore
 import (
 	"testing"
 
-	"github.com/mattermost/mattermost-server/v5/store"
+	"github.com/nonce/town-server/store"
 	"github.com/stretchr/testify/require"
 )
 

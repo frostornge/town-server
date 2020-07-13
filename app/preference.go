@@ -6,7 +6,7 @@ package app
 import (
 	"net/http"
 
-	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/nonce/town-server/model"
 )
 
 func (a *App) GetPreferencesForUser(userId string) (model.Preferences, *model.AppError) {

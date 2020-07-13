@@ -15,10 +15,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/mattermost/mattermost-server/v5/einterfaces"
-	"github.com/mattermost/mattermost-server/v5/model"
-	oauthgitlab "github.com/mattermost/mattermost-server/v5/model/gitlab"
-	"github.com/mattermost/mattermost-server/v5/utils/testutils"
+	"github.com/nonce/town-server/einterfaces"
+	"github.com/nonce/town-server/model"
+	oauthgitlab "github.com/nonce/town-server/model/gitlab"
+	"github.com/nonce/town-server/utils/testutils"
 )
 
 func TestIsUsernameTaken(t *testing.T) {

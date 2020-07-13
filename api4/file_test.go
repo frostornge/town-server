@@ -19,10 +19,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mattermost/mattermost-server/v5/app"
-	"github.com/mattermost/mattermost-server/v5/model"
-	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
-	"github.com/mattermost/mattermost-server/v5/utils/testutils"
+	"github.com/nonce/town-server/app"
+	"github.com/nonce/town-server/model"
+	"github.com/nonce/town-server/utils/fileutils"
+	"github.com/nonce/town-server/utils/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

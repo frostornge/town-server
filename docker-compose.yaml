@@ -5,22 +5,22 @@ services:
     ports:
       - "3306:3306"
     extends:
-        file: build/docker-compose.common.yml
-        service: mysql
+      file: build/docker-compose.common.yml
+      service: mysql
   postgres:
     container_name: mattermost-postgres
     ports:
       - "5432:5432"
     extends:
-        file: build/docker-compose.common.yml
-        service: postgres
+      file: build/docker-compose.common.yml
+      service: postgres
   minio:
     container_name: mattermost-minio
     ports:
       - "9000:9000"
     extends:
-        file: build/docker-compose.common.yml
-        service: minio
+      file: build/docker-compose.common.yml
+      service: minio
   inbucket:
     container_name: mattermost-inbucket
     ports:
@@ -28,31 +28,31 @@ services:
       - "10080:10080"
       - "10110:10110"
     extends:
-        file: build/docker-compose.common.yml
-        service: inbucket
+      file: build/docker-compose.common.yml
+      service: inbucket
   openldap:
     container_name: mattermost-openldap
     ports:
       - "389:389"
       - "636:636"
     extends:
-        file: build/docker-compose.common.yml
-        service: openldap
+      file: build/docker-compose.common.yml
+      service: openldap
   elasticsearch:
     container_name: mattermost-elasticsearch
     ports:
       - "9200:9200"
       - "9300:9300"
     extends:
-        file: build/docker-compose.common.yml
-        service: elasticsearch
+      file: build/docker-compose.common.yml
+      service: elasticsearch
   dejavu:
     container_name: mattermost-dejavu
     ports:
       - "1358:1358"
     extends:
-        file: build/docker-compose.optional.yml
-        service: dejavu
+      file: build/docker-compose.optional.yml
+      service: dejavu
 
   start_dependencies:
     image: mattermost/mattermost-wait-for-dep:latest
