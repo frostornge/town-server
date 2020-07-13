@@ -8,12 +8,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/nonce/town-server/einterfaces/mocks"
-	"github.com/nonce/town-server/plugin/plugintest/mock"
+	"github.com/mattermost/mattermost-server/v5/einterfaces/mocks"
+	"github.com/mattermost/mattermost-server/v5/plugin/plugintest/mock"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/store/storetest"
-	"github.com/nonce/town-server/utils/testutils"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/store/storetest"
+	"github.com/mattermost/mattermost-server/v5/utils/testutils"
 )
 
 type MockScheduler struct {

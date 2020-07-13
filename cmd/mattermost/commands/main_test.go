@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nonce/town-server/api4"
-	"github.com/nonce/town-server/testlib"
+	"github.com/mattermost/mattermost-server/v5/api4"
+	"github.com/mattermost/mattermost-server/v5/testlib"
 )
 
 func TestMain(m *testing.M) {

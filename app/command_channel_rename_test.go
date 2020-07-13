@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 func TestRenameProviderDoCommand(t *testing.T) {

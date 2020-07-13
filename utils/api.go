@@ -14,7 +14,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 func CheckOrigin(r *http.Request, allowedOrigins string) bool {

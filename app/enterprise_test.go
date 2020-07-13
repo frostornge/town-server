@@ -6,10 +6,10 @@ package app
 import (
 	"testing"
 
-	"github.com/nonce/town-server/einterfaces"
-	"github.com/nonce/town-server/einterfaces/mocks"
-	"github.com/nonce/town-server/model"
-	storemocks "github.com/nonce/town-server/store/storetest/mocks"
+	"github.com/mattermost/mattermost-server/v5/einterfaces"
+	"github.com/mattermost/mattermost-server/v5/einterfaces/mocks"
+	"github.com/mattermost/mattermost-server/v5/model"
+	storemocks "github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

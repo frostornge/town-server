@@ -6,7 +6,7 @@ package einterfaces
 import (
 	"context"
 
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 type MessageExportInterface interface {

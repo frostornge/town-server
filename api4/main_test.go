@@ -6,7 +6,7 @@ package api4
 import (
 	"testing"
 
-	"github.com/nonce/town-server/testlib"
+	"github.com/mattermost/mattermost-server/v5/testlib"
 )
 
 func TestMain(m *testing.M) {

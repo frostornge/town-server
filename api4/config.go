@@ -7,10 +7,10 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/nonce/town-server/audit"
-	"github.com/nonce/town-server/config"
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/utils"
+	"github.com/mattermost/mattermost-server/v5/audit"
+	"github.com/mattermost/mattermost-server/v5/config"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/utils"
 )
 
 func (api *API) InitConfig() {

@@ -4,8 +4,8 @@
 package searchlayer
 
 import (
-	model "github.com/nonce/town-server/model"
-	store "github.com/nonce/town-server/store"
+	model "github.com/mattermost/mattermost-server/v5/model"
+	store "github.com/mattermost/mattermost-server/v5/store"
 )
 
 type SearchTeamStore struct {

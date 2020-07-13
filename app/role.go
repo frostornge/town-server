@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/utils"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/utils"
 )
 
 func (a *App) GetRole(id string) (*model.Role, *model.AppError) {

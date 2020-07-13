@@ -6,9 +6,9 @@ package plugin_test
 import (
 	"testing"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/plugin"
-	"github.com/nonce/town-server/plugin/plugintest"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/plugin"
+	"github.com/mattermost/mattermost-server/v5/plugin/plugintest"
 	"github.com/stretchr/testify/assert"
 )
 

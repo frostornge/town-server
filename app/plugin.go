@@ -15,12 +15,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/nonce/town-server/mlog"
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/plugin"
-	"github.com/nonce/town-server/services/filesstore"
-	"github.com/nonce/town-server/services/marketplace"
-	"github.com/nonce/town-server/utils/fileutils"
+	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/plugin"
+	"github.com/mattermost/mattermost-server/v5/services/filesstore"
+	"github.com/mattermost/mattermost-server/v5/services/marketplace"
+	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
 
 	"github.com/blang/semver"
 	svg "github.com/h2non/go-is-svg"

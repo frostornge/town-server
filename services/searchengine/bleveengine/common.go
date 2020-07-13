@@ -6,8 +6,8 @@ package bleveengine
 import (
 	"strings"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/services/searchengine"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/services/searchengine"
 )
 
 type BLVChannel struct {

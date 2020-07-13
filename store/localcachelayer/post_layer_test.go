@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/store/storetest"
-	"github.com/nonce/town-server/store/storetest/mocks"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/store/storetest"
+	"github.com/mattermost/mattermost-server/v5/store/storetest/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

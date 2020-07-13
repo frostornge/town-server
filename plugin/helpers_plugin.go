@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/blang/semver"
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 	"github.com/pkg/errors"
 )
 

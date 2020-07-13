@@ -4,7 +4,7 @@
 package storetest
 
 import (
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 func MakeEmail() string {

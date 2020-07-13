@@ -7,8 +7,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/store"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/store"
 )
 
 func (a *App) GetGroup(id string) (*model.Group, *model.AppError) {

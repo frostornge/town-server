@@ -6,7 +6,7 @@ package einterfaces
 import (
 	"io"
 
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 type OauthProvider interface {

@@ -7,5 +7,5 @@
 // https://godoc.org/github.com/stretchr/testify/mock
 //
 // If you need to import the mock package, you can import it with
-// "github.com/nonce/town-server/plugin/plugintest/mock".
+// "github.com/mattermost/mattermost-server/v5/plugin/plugintest/mock".
 package plugintest

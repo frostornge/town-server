@@ -8,8 +8,8 @@ import (
 
 	"github.com/avct/uasurfer"
 
-	"github.com/nonce/town-server/app"
-	"github.com/nonce/town-server/utils"
+	"github.com/mattermost/mattermost-server/v5/app"
+	"github.com/mattermost/mattermost-server/v5/utils"
 )
 
 // MattermostApp describes downloads for the Mattermost App

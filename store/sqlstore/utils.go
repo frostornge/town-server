@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/mattermost/gorp"
-	"github.com/nonce/town-server/mlog"
+	"github.com/mattermost/mattermost-server/v5/mlog"
 )
 
 var escapeLikeSearchChar = []string{

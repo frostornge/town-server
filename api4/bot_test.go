@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/utils/fileutils"
-	"github.com/nonce/town-server/utils/testutils"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/utils/fileutils"
+	"github.com/mattermost/mattermost-server/v5/utils/testutils"
 	"github.com/stretchr/testify/require"
 )
 

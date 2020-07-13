@@ -15,10 +15,10 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 
-	"github.com/nonce/town-server/config"
-	"github.com/nonce/town-server/mlog"
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/utils"
+	"github.com/mattermost/mattermost-server/v5/config"
+	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/utils"
 )
 
 const noSettingsNamed = "unable to find a setting named: %s"

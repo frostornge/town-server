@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/services/mfa"
-	"github.com/nonce/town-server/utils"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/services/mfa"
+	"github.com/mattermost/mattermost-server/v5/utils"
 )
 
 type TokenLocation int

@@ -9,7 +9,7 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/pkg/errors"
 
-	"github.com/nonce/town-server/mlog"
+	"github.com/mattermost/mattermost-server/v5/mlog"
 )
 
 // watcher monitors a file for changes

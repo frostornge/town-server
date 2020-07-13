@@ -4,12 +4,12 @@
 package app
 
 import (
-	"github.com/nonce/town-server/einterfaces"
-	ejobs "github.com/nonce/town-server/einterfaces/jobs"
-	tjobs "github.com/nonce/town-server/jobs/interfaces"
-	"github.com/nonce/town-server/mlog"
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/services/searchengine"
+	"github.com/mattermost/mattermost-server/v5/einterfaces"
+	ejobs "github.com/mattermost/mattermost-server/v5/einterfaces/jobs"
+	tjobs "github.com/mattermost/mattermost-server/v5/jobs/interfaces"
+	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/services/searchengine"
 )
 
 var accountMigrationInterface func(*App) einterfaces.AccountMigrationInterface

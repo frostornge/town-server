@@ -4,8 +4,8 @@
 package commands
 
 import (
-	"github.com/nonce/town-server/app"
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/app"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 func getUsersFromUserArgs(a *app.App, userArgs []string) []*model.User {

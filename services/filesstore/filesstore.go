@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 type ReadCloseSeeker interface {

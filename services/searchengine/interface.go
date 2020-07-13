@@ -6,7 +6,7 @@ package searchengine
 import (
 	"time"
 
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 type SearchEngineInterface interface {

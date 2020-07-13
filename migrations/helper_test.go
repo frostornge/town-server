@@ -7,12 +7,12 @@ import (
 	"os"
 	"time"
 
-	"github.com/nonce/town-server/app"
-	"github.com/nonce/town-server/config"
-	"github.com/nonce/town-server/mlog"
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/store/localcachelayer"
-	"github.com/nonce/town-server/utils"
+	"github.com/mattermost/mattermost-server/v5/app"
+	"github.com/mattermost/mattermost-server/v5/config"
+	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/store/localcachelayer"
+	"github.com/mattermost/mattermost-server/v5/utils"
 )
 
 type TestHelper struct {

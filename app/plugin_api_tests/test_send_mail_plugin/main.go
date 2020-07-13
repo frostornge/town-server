@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nonce/town-server/app/plugin_api_tests"
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/plugin"
-	"github.com/nonce/town-server/services/mailservice"
+	"github.com/mattermost/mattermost-server/v5/app/plugin_api_tests"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/plugin"
+	"github.com/mattermost/mattermost-server/v5/services/mailservice"
 )
 
 type MyPlugin struct {

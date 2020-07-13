@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/store"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/store"
 )
 
 func (a *App) ProcessSlackText(text string) string {

@@ -6,7 +6,7 @@ package bleveengine
 import (
 	"fmt"
 
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 func createPost(userId string, channelId string, message string) *model.Post {

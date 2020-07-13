@@ -5,7 +5,7 @@ package app
 
 import (
 	"fmt"
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/model"
 	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/http/httptest"

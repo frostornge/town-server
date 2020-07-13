@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/dyatlov/go-opengraph/opengraph"
-	"github.com/nonce/town-server/mlog"
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/services/cache2"
-	"github.com/nonce/town-server/utils/imgutils"
-	"github.com/nonce/town-server/utils/markdown"
+	"github.com/mattermost/mattermost-server/v5/mlog"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/services/cache2"
+	"github.com/mattermost/mattermost-server/v5/utils/imgutils"
+	"github.com/mattermost/mattermost-server/v5/utils/markdown"
 )
 
 type linkMetadataCache struct {

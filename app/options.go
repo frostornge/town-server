@@ -4,11 +4,11 @@
 package app
 
 import (
-	"github.com/nonce/town-server/mlog"
+	"github.com/mattermost/mattermost-server/v5/mlog"
 	"github.com/pkg/errors"
 
-	"github.com/nonce/town-server/config"
-	"github.com/nonce/town-server/store"
+	"github.com/mattermost/mattermost-server/v5/config"
+	"github.com/mattermost/mattermost-server/v5/store"
 )
 
 type Option func(s *Server) error

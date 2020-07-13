@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/nonce/town-server/model"
-	"github.com/nonce/town-server/store/sqlstore"
-	"github.com/nonce/town-server/store/storetest"
+	"github.com/mattermost/mattermost-server/v5/model"
+	"github.com/mattermost/mattermost-server/v5/store/sqlstore"
+	"github.com/mattermost/mattermost-server/v5/store/storetest"
 )
 
 func TestGetReplica(t *testing.T) {

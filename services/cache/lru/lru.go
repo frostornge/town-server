@@ -15,7 +15,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nonce/town-server/services/cache"
+	"github.com/mattermost/mattermost-server/v5/services/cache"
 )
 
 // Cache is a thread-safe fixed size LRU cache.

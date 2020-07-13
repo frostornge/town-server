@@ -15,8 +15,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/nonce/town-server/audit"
-	"github.com/nonce/town-server/model"
+	"github.com/mattermost/mattermost-server/v5/audit"
+	"github.com/mattermost/mattermost-server/v5/model"
 )
 
 const (

@@ -6,7 +6,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/nonce/town-server/plugin"
+	"github.com/mattermost/mattermost-server/v5/plugin"
 )
 
 type Plugin struct {
